@@ -1,2 +1,2 @@
-# supermercado26deenero2
+# secuenciaslsupermercado6deenero2022
 Created with CodeSandbox
