@@ -49,32 +49,32 @@ let precioCremaDeLeche: number = 90;
 let precioDulceDeLeche: number = 60;
 let precioGalletitas: number = 40;
 
-console.log("El precio unitario es:" + precioLeche);
-console.log("El  precio unitario es:" + precioAzucar);
-console.log("El precio unitario es:" + precioYogurt);
-console.log("EL precio unitario es:" + precioManteca);
-console.log("El precio unitario es" + precioQueso);
-console.log("El precio unitario es:" + precioFideos);
-console.log("El precio unitario es:" + preciosalsaDeTomates);
-console.log("El precion unitario es:" + precioGalletitas);
-console.log("El precion unitario es:" + precioCremaDeLeche);
-console.log("El precion unitario es:" + precioDulceDeLeche);
+console.log(" precio Leche es:" + precioLeche);
+console.log(" precio Azucar es:" + precioAzucar);
+console.log(" precio Yogurt es:" + precioYogurt);
+console.log("precio Manteca es:" + precioManteca);
+console.log("precio Queso es" + precioQueso);
+console.log("precio Fideos es:" + precioFideos);
+console.log(" precio Salsa De Tomate es:" + preciosalsaDeTomates);
+console.log("precion Galletitas es:" + precioGalletitas);
+console.log(" precion Crema De Leche es:" + precioCremaDeLeche);
+console.log("precion Dulce De Leche es:" + precioDulceDeLeche);
 
-//let ingresonuevoproducto = prompt("Ingresa el nombre del nuevo producto");
-//let stockinicialnuevoproducto = prompt(
+let ingresonuevoproducto:string =String( prompt("Ingresa el nombre del nuevo producto"));
+let stockinicialnuevoproducto:number = Number(prompt(
   "Ingresa el stock inicial del nuevo producto"
-);
-//let ingresoprecionuevoproducto = prompt(
+));
+let ingresoprecionuevoproducto:number = Number(prompt(
   "Ingresa el  precio del nuevo producto"
-);
-//let productonuevo = ingresonuevoproducto;
-//let stocknuevoproducto = stockinicialnuevoproducto;
-//let precionuevoproducto = ingresoprecionuevoproducto;
+));
+let productonuevo = ingresonuevoproducto;
+let stocknuevoproducto = stockinicialnuevoproducto;
+let precionuevoproducto = ingresoprecionuevoproducto;
 console.log(
- // `Nuevo producto es, ${productonuevo}, su stock inicial es, ${stocknuevoproducto}, su precio inicial es, ${precionuevoproducto} `
+ `Nuevo producto es, ${productonuevo}, su stock inicial es, ${stocknuevoproducto}, su precio inicial es, ${precionuevoproducto} `
 );
 
-console.log("Bienvenido a supermercado Madariaga");
+console.log("Bienvenido a Mercado 3 supermercado Madariaga");
 console.log("Los productos disponibles son:");
 
 if (stockLeche != 0) {
@@ -110,8 +110,8 @@ if (stockDulceDeLeche != 0) {
 if (stockGalletitas != 0) {
   console.log("Galletitas $" + precioGalletitas);
 }
-//if (stocknuevoproducto != 0) {
-  //console.log(productonuevo + precionuevoproducto);
+if (stocknuevoproducto != 0) {
+  console.log(productonuevo + precionuevoproducto);
 }
 
 let nombredelproductoacomprar=prompt("Que producto desea  comprar");
@@ -119,7 +119,7 @@ if (nombredelproductoacomprar==="leche") {
 let acomprar="leche $"
   console.log( acomprar + precioLeche)
   console.log("El stock disponible de Leche es:" + stockLeche);
-  let cantidaddelproductoacomprar:number=Number(prompt("Cuantos desea comprar"));
+   let cantidaddelproductoacomprar:number=Number(prompt("Cuantos desea comprar"));
   if (cantidaddelproductoacomprar>stockLeche) {
     console.log("No hay suficiente  stock; el stock  disponible de Leche es: " +stockLeche)
   } else { if(cantidaddelproductoacomprar===stockLeche){
@@ -136,4 +136,45 @@ let acomprar="leche $"
   }
 
  
-  
+  let ingresoproductonuevos1=prompt("ingreso de  producto nuevo 1");
+let stockinicialdelosproductosnuevos1:number=Number(prompt("Ingresa stock inicial "));
+let preciodelosproductosnuevos1:number=Number(prompt("ingresa el precio "));
+ 
+
+if (stockinicialdelosproductosnuevos1!=0&&preciodelosproductosnuevos1!=0) {
+ console.log(" producto nuevo:" + ingresoproductonuevos1);
+ console.log("Su stock inicial es :"  + stockinicialdelosproductosnuevos1);
+ console.log("El precio  nuevo producto es:" + preciodelosproductosnuevos1);
+ let productonuevo1=ingresoproductonuevos1;
+ let stocknuevoproducto1=stockinicialdelosproductosnuevos1;
+ let precioproductonuevo1=preciodelosproductosnuevos1;
+}
+
+let ingresoproductonuevos2=prompt("ingreso de  producto nuevo 2");
+let stockinicialdelosproductosnuevos2:number=Number(prompt("Ingresa stock inicial "));
+let preciodelosproductosnuevos2:number=Number(prompt("ingresa el precio "));
+ 
+
+if (stockinicialdelosproductosnuevos2!=0&&preciodelosproductosnuevos2!=0) {
+ console.log(" producto nuevo:" + ingresoproductonuevos2);
+ console.log("Su stock inicial es :"  + stockinicialdelosproductosnuevos2);
+ console.log("El precio  nuevo producto es:" + preciodelosproductosnuevos2);
+ let productonuevo2=ingresoproductonuevos2;
+ let stocknuevoproducto2=stockinicialdelosproductosnuevos2;
+ let precioproductonuevo2=preciodelosproductosnuevos2;
+}
+
+let ingresoproductonuevos3=prompt("ingreso de  producto nuevo 3");
+let stockinicialdelosproductosnuevos3:number=Number(prompt("Ingresa stock inicial "));
+let preciodelosproductosnuevos3:number=Number(prompt("ingresa el precio "));
+ 
+
+if (stockinicialdelosproductosnuevos3!=0&&preciodelosproductosnuevos1!=0) {
+ console.log(" producto nuevo:" + ingresoproductonuevos3);
+ console.log("Su stock inicial es :"  + stockinicialdelosproductosnuevos3);
+ console.log("El precio  nuevo producto es:" + preciodelosproductosnuevos3);
+ let productonuevo3=ingresoproductonuevos3;
+ let stocknuevoproducto3=stockinicialdelosproductosnuevos3;
+ let precioproductonuevo3=preciodelosproductosnuevos3;
+}
+
