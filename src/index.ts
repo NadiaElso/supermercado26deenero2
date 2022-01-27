@@ -61,17 +61,17 @@ console.log("El precion unitario es:" + precioCremaDeLeche);
 console.log("El precion unitario es:" + precioDulceDeLeche);
 
 //let ingresonuevoproducto = prompt("Ingresa el nombre del nuevo producto");
-let stockinicialnuevoproducto = prompt(
+//let stockinicialnuevoproducto = prompt(
   "Ingresa el stock inicial del nuevo producto"
 );
-let ingresoprecionuevoproducto = prompt(
+//let ingresoprecionuevoproducto = prompt(
   "Ingresa el  precio del nuevo producto"
 );
-let productonuevo = ingresonuevoproducto;
-let stocknuevoproducto = stockinicialnuevoproducto;
-let precionuevoproducto = ingresoprecionuevoproducto;
+//let productonuevo = ingresonuevoproducto;
+//let stocknuevoproducto = stockinicialnuevoproducto;
+//let precionuevoproducto = ingresoprecionuevoproducto;
 console.log(
-  `Nuevo producto es, ${productonuevo}, su stock inicial es, ${stocknuevoproducto}, su precio inicial es, ${precionuevoproducto} `
+ // `Nuevo producto es, ${productonuevo}, su stock inicial es, ${stocknuevoproducto}, su precio inicial es, ${precionuevoproducto} `
 );
 
 console.log("Bienvenido a supermercado Madariaga");
@@ -110,8 +110,30 @@ if (stockDulceDeLeche != 0) {
 if (stockGalletitas != 0) {
   console.log("Galletitas $" + precioGalletitas);
 }
-if (stocknuevoproducto != 0) {
-  console.log(productonuevo + precionuevoproducto);
+//if (stocknuevoproducto != 0) {
+  //console.log(productonuevo + precionuevoproducto);
 }
 
-let compradeproducto: number = Number("producto a comprar");
+let nombredelproductoacomprar=prompt("Que producto desea  comprar");
+if (nombredelproductoacomprar==="leche") {
+let acomprar="leche $"
+  console.log( acomprar + precioLeche)
+  console.log("El stock disponible de Leche es:" + stockLeche);
+  let cantidaddelproductoacomprar:number=Number(prompt("Cuantos desea comprar"));
+  if (cantidaddelproductoacomprar>stockLeche) {
+    console.log("No hay suficiente  stock; el stock  disponible de Leche es: " +stockLeche)
+  } else { if(cantidaddelproductoacomprar===stockLeche){
+    stockLeche=stockLeche-cantidaddelproductoacomprar;
+    console.log("Has agotado el stock de Leche" +stockLeche);
+    let compratotal=cantidaddelproductoacomprar*precioLeche;
+    console.log("Total a pagar:"+ compratotal);
+
+  }else {if (cantidaddelproductoacomprar<stockLeche){
+    stockLeche=stockLeche-cantidaddelproductoacomprar;
+    console.log("Gracias por su compra ahora queda un  Stock de Leche de:" +stockLeche);
+    let compratotal=cantidaddelproductoacomprar*precioLeche;
+    console.log("Total a pagar:"+ compratotal);
+  }
+
+ 
+  
