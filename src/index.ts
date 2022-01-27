@@ -142,7 +142,7 @@ let preciodelosproductosnuevos1:number=Number(prompt("ingresa el precio "));
  
 
 if (stockinicialdelosproductosnuevos1!=0&&preciodelosproductosnuevos1!=0) {
- console.log(" producto nuevo:" + ingresoproductonuevos1);
+ console.log(" producto nuevo 1:" + ingresoproductonuevos1);
  console.log("Su stock inicial es :"  + stockinicialdelosproductosnuevos1);
  console.log("El precio  nuevo producto es:" + preciodelosproductosnuevos1);
  let productonuevo1=ingresoproductonuevos1;
@@ -156,7 +156,7 @@ let preciodelosproductosnuevos2:number=Number(prompt("ingresa el precio "));
  
 
 if (stockinicialdelosproductosnuevos2!=0&&preciodelosproductosnuevos2!=0) {
- console.log(" producto nuevo:" + ingresoproductonuevos2);
+ console.log(" producto nuevo 2:" + ingresoproductonuevos2);
  console.log("Su stock inicial es :"  + stockinicialdelosproductosnuevos2);
  console.log("El precio  nuevo producto es:" + preciodelosproductosnuevos2);
  let productonuevo2=ingresoproductonuevos2;
@@ -170,7 +170,7 @@ let preciodelosproductosnuevos3:number=Number(prompt("ingresa el precio "));
  
 
 if (stockinicialdelosproductosnuevos3!=0&&preciodelosproductosnuevos1!=0) {
- console.log(" producto nuevo:" + ingresoproductonuevos3);
+ console.log(" producto nuevo 3:" + ingresoproductonuevos3);
  console.log("Su stock inicial es :"  + stockinicialdelosproductosnuevos3);
  console.log("El precio  nuevo producto es:" + preciodelosproductosnuevos3);
  let productonuevo3=ingresoproductonuevos3;
