@@ -136,45 +136,5 @@ let acomprar="leche $"
   }
 
  
-  let ingresoproductonuevos1=prompt("ingreso de  producto nuevo 1");
-let stockinicialdelosproductosnuevos1:number=Number(prompt("Ingresa stock inicial "));
-let preciodelosproductosnuevos1:number=Number(prompt("ingresa el precio "));
  
-
-if (stockinicialdelosproductosnuevos1!=0&&preciodelosproductosnuevos1!=0) {
- console.log(" producto nuevo 1:" + ingresoproductonuevos1);
- console.log("Su stock inicial es :"  + stockinicialdelosproductosnuevos1);
- console.log("El precio  nuevo producto es:" + preciodelosproductosnuevos1);
- let productonuevo1=ingresoproductonuevos1;
- let stocknuevoproducto1=stockinicialdelosproductosnuevos1;
- let precioproductonuevo1=preciodelosproductosnuevos1;
-}
-
-let ingresoproductonuevos2=prompt("ingreso de  producto nuevo 2");
-let stockinicialdelosproductosnuevos2:number=Number(prompt("Ingresa stock inicial "));
-let preciodelosproductosnuevos2:number=Number(prompt("ingresa el precio "));
- 
-
-if (stockinicialdelosproductosnuevos2!=0&&preciodelosproductosnuevos2!=0) {
- console.log(" producto nuevo 2:" + ingresoproductonuevos2);
- console.log("Su stock inicial es :"  + stockinicialdelosproductosnuevos2);
- console.log("El precio  nuevo producto es:" + preciodelosproductosnuevos2);
- let productonuevo2=ingresoproductonuevos2;
- let stocknuevoproducto2=stockinicialdelosproductosnuevos2;
- let precioproductonuevo2=preciodelosproductosnuevos2;
-}
-
-let ingresoproductonuevos3=prompt("ingreso de  producto nuevo 3");
-let stockinicialdelosproductosnuevos3:number=Number(prompt("Ingresa stock inicial "));
-let preciodelosproductosnuevos3:number=Number(prompt("ingresa el precio "));
- 
-
-if (stockinicialdelosproductosnuevos3!=0&&preciodelosproductosnuevos1!=0) {
- console.log(" producto nuevo 3:" + ingresoproductonuevos3);
- console.log("Su stock inicial es :"  + stockinicialdelosproductosnuevos3);
- console.log("El precio  nuevo producto es:" + preciodelosproductosnuevos3);
- let productonuevo3=ingresoproductonuevos3;
- let stocknuevoproducto3=stockinicialdelosproductosnuevos3;
- let precioproductonuevo3=preciodelosproductosnuevos3;
-}
 
